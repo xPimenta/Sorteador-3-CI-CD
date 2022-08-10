@@ -3,6 +3,7 @@ import prisma from "./database.js";
 
 const app = express();
 app.use(json());
+//test
 
 
 app.get("/students", async (req: Request, res: Response) => {
