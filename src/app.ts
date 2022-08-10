@@ -3,10 +3,6 @@ import prisma from "./database.js";
 
 const app = express();
 app.use(json());
-<<<<<<< HEAD
-console.log("test22e")
-=======
->>>>>>> branch1
 
 
 app.get("/students", async (req: Request, res: Response) => {
