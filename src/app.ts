@@ -4,6 +4,8 @@ import prisma from "./database.js";
 const app = express();
 app.use(json());
 
+console.log("teste")
+
 app.get("/students", async (req: Request, res: Response) => {
   const students = await prisma.student.findMany();
   res.send(students);
